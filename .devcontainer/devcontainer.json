@@ -1,0 +1,18 @@
+{
+	"name": "Debian",
+	"image": "mcr.microsoft.com/devcontainers/base:debian",
+  
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"github.vscode-github-actions"
+			]
+		}
+	},
+
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/terraform-asdf:2": {}
+	}
+  
+}
